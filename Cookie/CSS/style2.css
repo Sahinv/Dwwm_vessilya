@@ -1,0 +1,29 @@
+body{ display: flex;
+    background-color: rgba(168, 168, 226, 0.781);
+flex-direction: column;
+}
+.All{ 
+margin: 0.2px;
+padding: 0.2px;
+background-color: rgb(255, 255, 255);
+
+}
+
+.Couleurs{ 
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(168, 221, 168);
+    flex-direction: row;
+    display: flex;
+
+}
+input{
+    border-top: 1px solid black;
+}
+
+button{
+    background-color: rgb(221, 221, 221);
+}
+
+
+

@@ -1,0 +1,9 @@
+#visite{
+    display: flex;
+}
+button{
+    cursor: pointer;
+}
+div{
+    padding: 0 5px;
+}
