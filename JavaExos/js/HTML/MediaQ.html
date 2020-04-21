@@ -1,0 +1,43 @@
+@media screen and (max-width: 780px){
+    nav {
+        width: 100%;
+    }
+    .menumobile{
+        display: block;
+    }
+    .menumobileTitre {
+        display: block;
+        color: black;
+        background-color: orange;
+        text-align: center;
+        width: 100%;
+    }
+    .menu{
+        display: block;
+        float: left;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+     /*   transition: visibility 2s, opacity 2s, height 2s linear;*/
+        width: 100%;
+        justify-content: center;
+    }
+    .menuTitre{
+        flex: 2;
+    }
+    .submenu{
+        flex: 7;
+        display: flex;
+        width: 80%;
+        text-align: center;
+        flex-direction: column;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
+    /*    transition: visibility 2s, opacity 2s, height 2s linear;*/
+    }	
+    .entreeSubMenu{
+        width: 100%;
+        text-align: center;
+    }	
+    

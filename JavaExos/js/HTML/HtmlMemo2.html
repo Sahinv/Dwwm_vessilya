@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8" lang="fr">
+    <link href="http://fr.allfont.net/allfont.css?fonts=manga-temple" rel="stylesheet" type="text/css" />
+    <title>Memorie Manga </title>
+
+    <style>
+        /* @media screen and (max-width:800px) {
+
+            header ,
+            h2 {
+                font-size: 1em;
+            }
+
+
+            header .conteneur {
+                display: flex;
+                flex-direction: column;
+            }
+
+            body {
+                background-size: cover;
+
+            }
+        } */
+/********************************************************* CSS  *********************************************/
+        body {
+            background-image: url(../Image/plateau.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+
+        .paquets {
+            margin: 15em;
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        img {
+            width: 5vw;
+            height: 8vh;
+        }
+
+        .paquet1 {
+            flex-direction: row;
+        }
+
+        .paquet2 {
+            flex-direction: row;
+        }
+    </style>
+
+
+ 
+</head>
+
+
+
+<body>
+    <h2>Memorie Manga </h2>
+
+
+    <div class="paquets" id="carte">
+
+        <div class="paquet1" id="carte">
+            <img src="../Image/fond.jpg" id="test">
+
+            <img src="../Image/fond.jpg">
+
+            <img src="../Image/fond.jpg">
+
+            <img src="../Image/fond.jpg">
+        </div>
+
+        <div class="paquet2" id="carte">
+            <img src="../Image/fond.jpg">
+
+            <img src="../Image/fond.jpg">
+
+            <img src="../Image/fond.jpg">
+
+            <img src="../Image/fond.jpg">
+        </div>
+
+
+    </div>
+    <script src="../JavaScript/memory.js"></script>
+</body>
+
+</html>
