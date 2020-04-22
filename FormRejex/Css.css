@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("The_life_of_kakashi_hatake.jpg");
+    background-size: cover;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgba(67, 69, 71, 0.5);
+    width: 40vw;
+    padding: 3vw;
+    background-color: rgba(95, 96, 99,0.5);
+}
+div{
+    display: flex;
+    margin-bottom: 1vw;
+    justify-content: center;
+    flex: 1;
+}
+div div{
+    margin-bottom:0;
+}
+img {
+    width: 10px;
+    height: 10px;
+    margin-left: 3vw;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    margin-bottom: 3vw;
+    color: white;
+}
+
+label {
+    flex: 0.5;
+    color: white;
+    font-size: 1.1vw;
+}
+input, textarea, .inputLabel{
+    flex: 1;
+}
+
+.column{
+    flex-direction: column;
+    justify-content: center;
+}
+.checkbox{
+   flex: 4;
+}
+
+button{
+    margin-left: 1vw;
+    border-radius: 34px;
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    padding: 0.5vw;
+}
+
