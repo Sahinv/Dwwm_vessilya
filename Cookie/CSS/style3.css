@@ -1,0 +1,36 @@
+body{ 
+display: flex;
+justify-content: center; 
+height: 100vh;
+margin: 0 auto;
+background-image: url(../Image/fondback.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+  
+   
+}
+.All{ 
+display: flex;
+
+}
+
+.Form{ 
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    
+}
+input{
+    border-top: 1px solid black;
+}
+
+button{
+  
+}
+
+label, h1 {
+    color: aliceblue;
+}
+.A {
+    padding: 10px;
+}
