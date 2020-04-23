@@ -33,4 +33,10 @@ if ( (CE && TNA && DE) != null ) {
 
 else alert("Veuillez remplir les champs");
 
+/************************************ Bouton nouveau calcul   **************************/ 
+var newCalcul = document.getElementById("Nouveau").addEventListener("click", function(){
+    var CE = document.getElementById("CE").value=""; //Capital Emprunté
+
+
+})
 
