@@ -1,0 +1,44 @@
+body{ 
+    
+    
+    height: 100vh;
+    margin: 0 auto;
+    background-color: burlywood;
+         
+    }
+.All{ 
+    display: flex;
+    justify-content: center;
+
+    
+    }
+    
+.EnsembleCadres{ 
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        
+    }
+input, label{
+        margin: 0.5vw;
+    }
+    
+.cadre{
+    border: 3px solid rgb(100, 92, 92);
+    width: 60vw;
+   
+      
+    }
+    
+.contenue {
+    margin: 2em;
+   
+    }
+.espace {
+        height: 15vh;
+    }
+
+h1 {
+    text-align: center;
+}
+    
