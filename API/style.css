@@ -1,0 +1,37 @@
+html,
+body {
+    background: #2980B9;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    background: linear-gradient(to right, #FFFFFF, #6DD5FA, #2980B9);
+    min-width: 400px;
+    background-image: url("fond1.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+  
+}
+
+#ville {
+    text-transform: capitalize;
+}
+
+#temperature {
+    font-size: 4em;
+}
+
+#changer {
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #008CBA;
+    border: none;
+}
+
+#icon {
+    font-size: 4em;
+    height: 40px;
+}
+
+.vitesseVent{
+    font-size: 24px;
+    color: red;
+}
