@@ -1,0 +1,26 @@
+.header {
+    background:pink;
+    }
+    #navigation-principale li {
+    position: relative;
+    display: inline-block;
+    padding: 10px;
+    font-weight: 500;
+    }
+    #navigation-principale li a {
+    color: #fff;
+    }
+    
+.blog-title {
+    background: linear-gradient(blue, white, red);
+    
+}
+/* 
+.customize-support {
+    background-image: url(../image/citron.jpg);
+}
+
+
+.blog-footer {
+    padding: 10em;
+} */

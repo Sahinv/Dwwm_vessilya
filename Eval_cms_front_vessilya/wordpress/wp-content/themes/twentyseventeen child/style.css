@@ -1,0 +1,23 @@
+/*
+Template: twentyseventeen
+Theme Name: twentyseventeen child
+Description: twentyseventeen child
+Author: Vessilya    
+Author URI: https://www.monsite.com
+Version: 1.1.0
+*/
+
+.ParaCss {
+    background-color:  #ECDCFF;
+    border: 3px solid #781BED;
+}
+
+.ParaJauneCss {
+    background-color:  #FFF68F;
+    border-radius: 10%;
+}
+
+img .jubia {
+    height: 236vh;
+    width: 236vw;
+}

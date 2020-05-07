@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="">
 <meta name="author" content="">
-<title>Exemple de thème WordPress</title>
+<title>theme perso</title>
 <!-- CSS de Bootstrap -->
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
 rel="stylesheet">
@@ -19,21 +19,21 @@ Explorer 8 -->
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
 <?php wp_head(); ?>
+<!-- Cette fonction permet à des plugins et à différentes
+fonctions d’ajouter des éléments à cet endroit précis. -->
 </head>
 <body>
 <div class="header">
 <div class="container">
 <nav id="navigation-principale" role="navigation">
-<a class="active" href="#">Accueil</a>
-<a href="#">Services</a>
-<a href="#">À Propos</a>
-<a href="#">Contact</a>
+<?php wp_nav_menu(array('theme_location'=>'menu-principal')); ?>
 </nav>
 </div>
 </div>
 <div class="container">
 <div class="blog-header">
-<h1 class="blog-title">Exemple de thème WordPress</h1>
-<p class="lead blog-description">Création d'un thème WordPress à titre de tutoriel sur
-WP Pour Les Nuls.</p>
+<h1 class="blog-title"><a href="<?php echo get_bloginfo( 'wpurl' );?>">
+<!-- ajouter un lien vers la page d’accueil de votre site web. -->
+<?php echo get_bloginfo( 'name' ); ?></a></h1>
+<p class="lead blog-description"><?php echo get_bloginfo( 'description' ); ?></p>
 </div>
