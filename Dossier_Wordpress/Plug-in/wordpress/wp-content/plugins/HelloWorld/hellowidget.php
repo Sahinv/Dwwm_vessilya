@@ -2,11 +2,6 @@
 class hellowidget extends WP_Widget
 // on cree la class hellowidget 
 {
-
-
-
-
-
     public function form($instance)
     // formulaire de gestion des paramètres pour le module d'administration
     // donne un nom et id a mes champs nouveaux
@@ -64,7 +59,7 @@ qui écrit Hello World'));
             les commentaires en base de données</div>
 
 
-        <h1>rendez nous Gabriel</h1> <!--  se qui aura d'afficher  -->
+        <h1> Hello world </h1> <!--  se qui aura d'afficher  -->
         <form action="" method="post">
             <p>
                 <label for="helloworld_comm">Votre commentaire :</label>
