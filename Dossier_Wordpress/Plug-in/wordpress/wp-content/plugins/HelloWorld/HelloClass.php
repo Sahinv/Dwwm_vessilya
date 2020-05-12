@@ -12,8 +12,11 @@ class HelloClass
         //Connecte le CSS perso
         add_action('wp_enqueue_scripts', array($this, 'persoCSS'), 15);
 
-        // on ajoute l'action de sauvegarde au chargement du widget 
+        // on ajoute l'action de sauvegarde au chargement du widget
         add_action('wp_loaded', array($this, 'save_comm'));
+
+        //
+        add_action('admin_init', array($this, 'register_settings'));
     }
 
 /* Listes des Fonctions  */
@@ -49,6 +52,24 @@ class HelloClass
             if (is_null($row)) {$wpdb->insert("{$wpdb->prefix}helloworld_commentaire", array('comm' => $comm));
             }
         }
+    }
+
+//
+    public function menu_html()
+    {echo '<h1>' . get_admin_page_title() . '</h1>';
+        ?>
+      <form method="post" action="options.php">
+       <label>Couleur</label>
+       <input type="text" name="helloworld_couleur" value="<?php echo get_option("helloworld_couleur") ?>"/>
+        <?php submit_button();?>
+         </form>
+
+         <?php settings_fields('helloworld_settings')?>
+
+         <?php }
+
+    public function register_settings()
+    {register_setting('helloworld_settings', 'helloworld_couleur');
     }
 
 }
