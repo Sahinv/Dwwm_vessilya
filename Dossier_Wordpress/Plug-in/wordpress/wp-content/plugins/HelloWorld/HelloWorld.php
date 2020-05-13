@@ -4,8 +4,8 @@ global $wpdb;
 
 /*
 Plugin Name: Hello World
-Description: Ecrit Hello World en haut de la page
-Author: Martine
+Description: Affiche une image au choix et est remplacée par une autre au survol de la souris
+Author: Vessilya
 Version: 1.0
  */
 echo "<h1>Hello world</h1>";
